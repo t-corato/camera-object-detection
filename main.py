@@ -57,8 +57,6 @@ while True:
             closing_times.append(datetime.now())
         break
 
-print(status_list)
-
 times_df["start"] = opening_times
 times_df["end"] = closing_times
 
